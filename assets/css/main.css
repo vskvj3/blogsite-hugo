@@ -1,0 +1,97 @@
+@import url("https://fonts.googleapis.com/css?family=IBM+Plex+Mono:wght@300;400;500;600;700;800;900&display=swap");
+
+:root {
+  --background: #282a36;
+  --red: #ff5555;
+  --dark-red: #a83838;
+  --yellow: #f1fa8c;
+  --dark-yellow: #959b57;
+  --green: #50fa7b;
+  --dark-green: #37b156;
+  --cyan: #8be9fd;
+  --foreground: #f8f8f2;
+  --currentline: #44475a;
+  --term-bg: #121420;
+}
+
+* {
+  font-family: "IBM Plex Mono", Helvetica, sans-serif;
+  margin: 0px;
+  padding: 0px;
+}
+
+body {
+  background-color: #282a36;
+}
+
+footer {
+  border-top: 1px solid #222;
+  margin-top: 1rem;
+}
+
+a {
+  color: #00e;
+  text-decoration: none;
+}
+
+#navbar {
+  background-color: #000000;
+  color: var(--foreground);
+  width: 50%;
+  min-width: 400px;
+  max-width: 600px;
+  height: auto;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 40px;
+  padding-bottom: 15px;
+  box-shadow: black 0px 5px 10px;
+  text-align: center;
+  padding-top: 40px;
+}
+
+.main {
+  background-color: #000000;
+  color: var(--foreground);
+  width: 50%;
+  min-width: 400px;
+  max-width: 600px;
+  height: auto;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 40px;
+  padding-bottom: 15px;
+  box-shadow: black 0px 5px 10px;
+  text-align: center;
+  padding-top: 40px;
+}
+
+.footer {
+  background-color: #000000;
+  color: var(--foreground);
+  width: 50%;
+  min-width: 400px;
+  max-width: 600px;
+  height: auto;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 40px;
+  padding-bottom: 15px;
+  box-shadow: black 0px 5px 10px;
+  text-align: center;
+  padding-top: 40px;
+}
+
+.blink {
+  animation: blink 2s linear infinite;
+}
+
+.blinkFrame {
+  display: inline-block;
+}
+
+@keyframes blink {
+  50% {
+      color: black;
+  }
+}
